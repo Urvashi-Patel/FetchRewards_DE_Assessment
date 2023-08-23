@@ -46,7 +46,12 @@ Step-9. Run load_sqs_to_postgres.py file.
 python load_sqs_to_postgres.py
 ```
 
-Step-10. Post load validation using below command in postgres.
+Step-10. Run psql command to proceed with post load validation.
+```bash
+psql -d "dbname='postgres' user='postgres' password='postgres' host='localhost'"
+```
+
+Step-11. Post load validation using below command in postgres.
 ```bash
 select * from user_logins;
 ```
