@@ -52,4 +52,4 @@ select * from user_logins;
 ```
 
 #### We can Unmasked ip and device_id using below command #####
-select *, convert_from(decode(masked_ip, 'base64'), 'UTF8') as unmasked_ip,  convert_from(decode(masked_device_id, 'base64'), 'UTF8') as unmasked_ip from�user_logins;
+select *, convert_from(decode(masked_ip, 'base64'), 'UTF8') as unmasked_ip,  convert_from(decode(masked_device_id, 'base64'), 'UTF8') as unmasked_ip from user_logins;
