@@ -13,7 +13,7 @@ cd FetchRewards_DE_Assessment
 
 Step-3. Upgrade the pip version.
 ```bash
-python -m pip install -U�pip
+python -m pip install -U pip
 ```
 
 Step-4. Run the requirements.txt file.
